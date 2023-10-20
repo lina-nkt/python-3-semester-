@@ -1,7 +1,7 @@
 def write_to_file(text, filename):
     try:
         with open(filename, 'a') as file:
-            file.write(text + '\n')  # Запись строки в файл с символом новой строки
+            file.write(text + '\n')
 
         print(f"Строка успешно записана в файл '{filename}'")
 
